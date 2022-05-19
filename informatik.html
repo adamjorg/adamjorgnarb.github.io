@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adam Jørgensens Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Adam Jørgensen</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+            <a href="dotdotdot.html">...</a>
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+
+                <!-- Note-knap start -->
+                <button class="accordion">HTML, CSS og RGB</button>
+                <div class="panel">
+                <p>
+                    <strong>HTML:</strong>
+                    <br>
+                    HTML er til at definere indholdet på en hjemmeside.
+                    <br>
+                    https://www.w3schools.com/html/html_intro.asp
+                    <br><br>
+                    <strong>CSS:</strong>
+                    <br>
+                    CSS bruges til at beskrive hvordan man ønsker indholdet af HTML præsenteret, f.eks. i en browser, inklusivt farver, layout og skrifttypen.
+                    <br>
+                    https://www.w3schools.com/css/default.asp
+                    <br><br>
+                    <strong>RGB:</strong>
+                    <br>
+                    RGB står for rød, grøn, blå (red, green, blue). Ved at blande disse farver kan du få lige den farve du ønsker.
+                    <br>
+                    https://www.w3schools.com/colors/colors_rgb.asp
+                </p>
+                </div>
+                <!-- Note-knap slut-->
+
+                <button class="accordion">JS og DOM</button>
+                <div class="panel">
+                <p>
+                    JS (Javascript) er det mest brugte kodeprogram.
+                    <br>
+                    https://www.w3schools.com/js/default.asp
+                    <br><br>
+                    DOM (Document Object Model) er en model som browseren laver, når en hjemmeside bliver loaded, for at vide hvordan hjemmesidn ser ud.
+                    <br>
+                    https://www.w3schools.com/js/js_htmldom.asp
+                </p>
+                </div>
+
+                <button class="accordion">Spiral modellen</button>
+                <div class="panel">
+                <p>
+                    <strong>Assessfasen:</strong>
+                    <br>
+                    Assessfasen er en vurderingsfase. Du vurderer hvad du vil lave, hvem det skal beregnes sig til og hvorfor de har brug for det.
+                    <br><br>
+                    <strong>Designfasen:</strong> 
+                    <br>
+                    Her designer du din hjemmeside. Dvs. hvordan skal hjemmesiden se ud, hvor har man menuen henne, hvor let tilgængeligt skal alting være?
+                    <br><br>
+                    <strong>Buildfasen:</strong>
+                    <br>
+                    I denne fase laver du en prototype af dit produkt/hjemmesiden. Herefter kan du få noogen til at teste dit produkt og give dig feedback.
+                    <br><br><br>
+                    Når du er færdig med buildfasen tager du og kører procedyren igennem flere gange indtil at dine testperoner ikke kan finde flere "fejl" og du selv er tilfreds.
+               </p>
+                </div>
+                
+                <button class="accordion">console.log</button>
+                <div class="panel">
+                <p>
+                    Console.log bliver brugt til at sende en besked til consolen. Man bruger typisk console.log til tests, for at se om tingene virker.
+                    <br>
+                    https://www.w3schools.com/jsref/met_console_log.asp
+                </p>
+                </div>
+                
+                <button class="accordion">Variabler og datatyper</button>
+                <div class="panel">
+                <p>
+                    Variabler:
+                    <br>
+                    Der findes fire variabler, var, let, const og ingenting. Nu til dags bruger man for det meste let og const.
+                    <br><br>
+                    Hvis noget gælder generalt så brug "const".
+                    <br><br>
+                    Hvis du tror at variablen kommer til at ændre sig i fremtiden så brug "let"
+                    <br>
+                    https://www.w3schools.com/js/js_variables.asp
+                    <br><br><br>
+                    Datatyper:
+                    <br>
+                    Der findes mange datatyper: byte, short, int, long, float, double, boolean, char, String og mange flere.
+                    <br><br>
+                    <strong>byte:</strong> gemmer hele tal fra -128 til 127.
+                    <br><br>
+                    <strong>short:</strong> gemmer hele tal fra -32.768 til 32.767.
+                    <br><br>
+                    <strong>int:</strong> gemmer hele tal fra ca. -2.1 mia. til ca 2.1 mia.
+                    <br><br>
+                    <strong>long:</strong> gemmer hele tal fra ca. 9.2 * 10^-18 til ca. 9.2 * 10^18.
+                    <br><br>
+                    <strong>float:</strong> gemmer brøkker, gemmer tilstrækkelig med 6 til 7 decimaler.
+                    <br><br>
+                    <strong>double</strong>: gemmer brøkker, gemmer tilstrækkelig med 15 decimaler.
+                    <br><br>
+                    <strong>boolean:</strong> gemmer sande eller falske værdier.
+                    <br><br>
+                    <strong>char:</strong> gemmer et enkelt tegn eller bogstaver.
+                    <br><br>
+                    <strong>String:</strong> gemmer flere tegn eller bogstaer der står mellem citationstegn.
+                </p>
+                </div>
+                
+                <button class="accordion">Operatorer</button>
+                <div class="panel">
+                <p>
+                    Der findes mange operatorer. Operatorer er specielle symboler/tegn der bliver brugt til at udføre en handling.
+                    https://www.w3schools.com/js/js_operators.asp
+                </p>
+                </div>
+                
+                <button class="accordion">IF-statements</button>
+                <div class="panel">
+                <p>
+                    IF-statements bliver brugt hvis du vil have et bestemt udfald på bestemte tidspunkter. Du får altså programmet til at tjekke om noget er rigtigt eller forkert og derefter kommer programmet med et udfald.
+                    <br>
+                    F.eks. Du vil have et "Godmorgen" hvis klokken er inden 10 og et "Goddag", hvis klokken er efter 10. Programmet vil tjekke om klokken er efter 10. Hvis den er det, så får du et "Goddag" som udfald, mens hvis klokken ikke er efter 10 så får du et "Godmorgen" udfald
+                </p>
+                </div>
+                
+                <button class="accordion">Funktioner</button>
+                <div class="panel">
+                <p> En funktion er en "beholder" til en blok af kode. Funktioner hjælper os bl.a. med at undgå repetition, men en enkel funktion kan afvikles flere gange, og med at opdele koden i komponenter og dermed gøre vores kodebase mere overskueligt.
+                    <br>
+                    https://www.w3schools.com/js/js_functions.asp
+                </p>
+                </div>
+                
+                <button class="accordion">Arrays</button>
+                <div class="panel">
+                <p>
+                    Arrys er en enkel variabel som kan holde på mange værdier. Dette er meget praktisk hvis du skal gemme på flere hundrede værdier.
+                    <br>
+                    https://www.w3schools.com/js/js_arrays.asp
+                </p>
+                </div>
+                
+                <button class="accordion">Loops</button>
+                <div class="panel">
+                <p>
+                    Der findes forskellige slags loops, men loops funktioner er generelt bare at køre den samme blok kode igen og igen og igen...
+                    https://www.w3schools.com/js/js_loop_for.asp
+                </p>
+                </div>
+                
+                 <button class="accordion">Popup Boxes: Prompt, Alert og Confirm</button>
+                <div class="panel">
+                <p>
+                    Der er 3 former for Popup boxes: Prompt, Alert og Confirm
+                    https://www.w3schools.com/js/js_popup.asp
+                    <br><br>
+                    <strong>Promt:</strong>
+                    <br>
+                    Promt bliver brugt når en bruger skal indtaste en værdi inden at de fortsætter.
+                    <br>
+                    F.eks.: https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt
+                    <br><br>
+                    <strong>Alert:</strong>
+                    <br>
+                    Alert bliver brugt når du vil være sikker på at brugeren modtager informationen.
+                    <br>
+                    F.eks.: https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert
+                    <br><br>
+                    <strong>Confirm:</strong>
+                    <br>
+                    Confirm bliver brugt når du vil have en bruger til at acceptere eller at bekræfte noget.
+                    <br>
+                    F.eks.: https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm
+                </p>   
+                </div>
+            
+            <hr>
+            <h1>Server og Databaser</h1>
+
+
+                 <button class="accordion">HTTP & HTTPS</button>
+                <div class="panel">
+                <p>
+                    <strong>HTTP:</strong>
+                    <br>
+                    HTTP bliver bruges til komunikation mellem en bruger og en server.
+                    <br><br>
+                    <strong>HTTPS:</strong>
+                    <br>
+                    HTTPS bliver også brugt til at komunikere mellem en server og en bruger.
+                    <br>
+                    Den eneste forskel på HTTP og HTTPS er at HTTPS er en krypteret version af HTTP, dvs. at en brugers beskeder er meget mere sikre end HTTP.
+                    <br>
+                    HTTPS bliver brugt på hjemmesider hvor du skal give personlige informationer som CPR-nummer, kortinformationer, adresse m.m.
+                    <br><br>
+                    https://www.youtube.com/watch?v=hExRDVZHhig
+                </p>
+            </div>
+
+                <button class="accordion">Create collection</button>
+                <div class="panel">
+                <p>"Create collection" bliver brugt til at lave en lukket kollektion eller en ny kollektion som bruger validation fra dokumenter.
+                    <br>
+                    1: https://docs.mongodb.com/compass/current/collections/
+                    <br>
+                    2: https://www.w3schools.com/nodejs/nodejs_mongodb_createcollection.asp
+                </p>
+                </div>
+
+                <button class="accordion">Drop collection</button>
+                <div class="panel">
+                <p>"Drop collection" bruges for at fjerne en kollektion.
+                    <br>
+                    https://www.w3schools.com/nodejs/nodejs_mongodb_drop.asp
+                </p>
+                </div>
+
+                <button class="accordion">Insert document</button>
+                <div class="panel">
+                <p>"Insert dokument" bruges til at indsætte et dokument ind i en kollektion.
+                    <br>
+                    1: https://docs.mongodb.com/compass/current/documents/insert/
+                    <br>
+                    2: https://www.w3schools.com/nodejs/nodejs_mongodb_insert.asp
+                    <br>
+                    3: https://docs.mongodb.com/manual/core/document/
+                </p>
+                </div>
+
+                <button class="accordion">Entity relationship diagrams (ER-diagrammer)</button>
+                <div class="panel">
+                <p>ER-diagram er en model som benyttes for at grafsik illustrere eller at præsentere, hvordan seperate elementer i en database er opbygget, og hvordan de interegerer med hinanden.
+                    <br>
+                    1: https://www.lucidchart.com/pages/er-diagrams
+                    <br>
+                    2: https://www.youtube.com/watch?v=QpdhBUYk7Kk
+                    <br>
+                    3: https://www.youtube.com/watch?v=-CuY5ADwn24
+                </p>
+                </div>
+
+                <button class="accordion">Password Hashing</button>
+                <div class="panel">
+                <p>"Password hashing" betyder kode kryptering. Ens kodeord bliver krypteret, og derved ulæseligt for andre personer. De fleste hjemmesider alle de koder som deres kunder skriver.
+                    <br>
+                    1: https://www.youtube.com/watch?v=--tnZMuoK3E
+                    <br>
+                    2: https://www.youtube.com/watch?v=8COArd_EREw
+                </p>
+                </div>
+
+                <button class="accordion">Find, Update og Delete komandoer</button>
+                <div class="panel">
+                <p><strong>Find:</strong>
+                    <br>
+                    "Find" komandoen bruges for at finde filer, baseret på hvilke krav/specifikationer du leder efter.
+                    <br>
+                    1: https://docs.mongodb.com/compass/current/query/filter/
+                    <br>
+                    2: https://www.w3schools.com/nodejs/nodejs_mongodb_find.asp
+                    <br><br>
+                    <strong>Update:</strong>
+                    <br>
+                    "Update" komandoen bliver brugt til at ændre på allerede gemte dokumenter inde i databasen.
+                    <br>
+                    1: https://docs.mongodb.com/compass/current/documents/modify/
+                    <br>
+                    2: https://www.w3schools.com/nodejs/nodejs_mongodb_update.asp
+                    <br><br>
+                    <strong>Delete:</strong>
+                    <br>
+                    "Delete" komandoen bliver brugt til at slette dokumenter inde i databasen.
+                    <br>
+                    1: https://docs.mongodb.com/compass/current/documents/delete/
+                    <br>
+                    2: https://www.w3schools.com/nodejs/nodejs_mongodb_delete.asp
+                </p>
+                </div>
+          </div>
+
+
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">Flappybird projekt</button>
+                <div class="panel">
+                <a href="flappybird-clone-main/beginnerversion/index.html">Flappybird projekt</a>
+                </div>
+
+                <button class="accordion">Regnskabs projekt</button>
+                <div class="panel">
+                <a href="RegnskabInformatik/index.html">Regnskabs projekt</a>
+                </div>
+
+                <button class="accordion">Databaser og server mini projekt</button>
+                <div class="panel">
+                <a href="fullstackdemomaster/fullstackdemo-master/index.html">Databaser og server mini projekt/playground</a>
+            </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
